@@ -216,14 +216,9 @@ nav a:hover {
     position: absolute;
 }
 
-.banner { 
-	padding-top: 13em;
-}
-
 .intro { 
 	font-size: 12pt;
 	font-weight: 200; 
-	padding-bottom: 2em;
 	padding-right: 3em;
 	padding-left: 3em;
 }
@@ -234,4 +229,30 @@ nav a:hover {
 	padding-top: 4em;
 	padding-bottom: 4em;
 	margin-top: 5em;
+}
+
+.heading { 
+	text-align: center;
+	padding-top: 3em;
+}
+
+.heading-intro { 
+	text-align: center;
+	font-size: 12pt;
+	padding-bottom: 5em;
+}
+
+.banner { 
+	background-color: #D6D6D6;
+	padding-top: .5em;
+	padding-bottom: 3em;
+}
+
+.topbar { 
+	background-color: #D6D6D6;
+}
+
+.subheadings { 
+	text-align: center;
+	font-size: 12pt;
 }
