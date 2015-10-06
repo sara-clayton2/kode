@@ -52,5 +52,170 @@ img {
 
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
-	color: inherit;
 }
+
+
+.panel {
+    max-height: 0em;
+    overflow: hidden;
+    transition: all 250ms ease-out;
+}
+
+.js-panel-open {
+    display: block;
+    max-height: 20em;
+}
+
+.ham-btn {
+    height: 1.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    top: 1rem;
+    left: 5%;
+    background: transparent url("../images/hamburger.svg") no-repeat center center;
+    z-index: 100;
+    padding: 0;
+    margin: 20px;
+    border: 0;
+    outline-color: white;
+}
+
+.ham-btn {
+    background-color: grey;
+}
+
+nav {
+ padding: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid grey;
+}
+
+nav li {
+    background-color: grey;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 25px;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+.button-top {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid #fff;
+    border-radius: 100px;
+    height: 120px;
+    font-size: 1.25rem;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #fff;
+    background-color: grey;
+    margin: 0;
+    transition: all 250ms linear;
+}
+
+.button-top:hover {
+    cursor: pointer;
+    border: 10px solid #fff;
+    background-color: red;
+}
+
+.tab-img {
+    width: 140px;
+    height: 140px;
+    border: 10px solid black;
+    border-left: 0;
+}
+
+.js-current .tab-img {
+    border-color: black;
+}
+
+.window-txt {
+    width: 100%;
+    height: 435px;
+    text-align: center;
+    border: 20px solid black;
+    padding-top: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.tab {
+    list-style: none;
+    padding: 0;
+}
+
+.pad-0 {
+    padding: 0;
+}
+
+.pad-txt {
+    padding-top: 100px;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.pad-txt-2 {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.push-r {
+  margin-left: 5rem;
+}
+
+.img-border {
+    border: 10px solid black;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.tab-panel h4,
+.tab-panel p,
+.tab-panel img {
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.js-appear h4,
+.js-appear p,
+.js-appear img {
+    opacity: 1;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+
