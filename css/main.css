@@ -221,6 +221,23 @@ nav a:hover {
 	font-weight: 200; 
 	padding-right: 3em;
 	padding-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.about-items { 
+	font-size: 12pt;
+	font-weight: 200; 
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 30em) { 
+	.about-items { 
+		padding-right: 7em;
+		padding-left: 7em;
+	}
 }
 
 .banner-css { 
@@ -238,7 +255,7 @@ nav a:hover {
 
 .heading-intro { 
 	text-align: center;
-	font-size: 12pt;
+	font-size: 14pt;
 	padding-bottom: 5em;
 }
 
@@ -255,4 +272,8 @@ nav a:hover {
 .subheadings { 
 	text-align: center;
 	font-size: 12pt;
+}
+
+.adding-top { 
+	padding-top: 6em;
 }
