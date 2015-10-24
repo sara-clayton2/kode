@@ -150,10 +150,10 @@ nav a:hover {
 
 .window-txt {
     width: 100%;
-    height: 200px;
+    height: 417px;
     text-align: center;
     border: 3px solid #484949;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-left: 2em;
     padding-right: 2em;
 	margin-left: 2em;
@@ -241,14 +241,6 @@ nav a:hover {
 	}
 }
 
-.banner-css { 
-	background-color: #6BA2A7; 
-	color: white; 
-	padding-top: 4em;
-	padding-bottom: 4em;
-	margin-top: 5em;
-}
-
 .heading { 
 	text-align: center;
 	padding-top: 1em;
@@ -278,10 +270,16 @@ nav a:hover {
 	color: 3em;;
 }
 
-.subheadings-css { 
+.subheading-css { 
 	text-align: center;
 	font-size: 14pt;
-	color: #484949;
+	color: #E9E3C4;
+}
+
+.subheadings-html { 
+	text-align: center;
+	font-size: 14pt;
+	color:  #E9E3C4;
 }
 
 .adding-top { 
@@ -316,4 +314,17 @@ nav a:hover {
 	margin-left: 50%;
 	font-size: 12pt;
 	color: #6BA2A7;
+}
+
+.banner-css { 
+	background-color: #6BA2A7; 
+	color: white; 
+	padding-top: 4em;
+	padding-bottom: 4em;
+	margin-top: 2em;
+}
+
+.banner-html { 
+	background-color: #6BA2A7;
+	color: white; 
 }
