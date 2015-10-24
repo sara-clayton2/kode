@@ -141,24 +141,23 @@ nav a:hover {
 .tab-img {
     width: 140px;
     height: 140px;
-    border: 3px solid black;
-	background-color: #E9E3C4;
+    border: 3px solid #484949;
 }
 
 .js-current .tab-img {
-    border-color: black;
-	background-color: #E9E3C4;
+    border-color: #484949;
 }
 
 .window-txt {
     width: 100%;
-    height: 435px;
+    height: 200px;
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid #484949;
     padding-top: 30px;
     padding-left: 2em;
     padding-right: 2em;
 	margin-left: 2em;
+	color: #484949;
 }
 
 .tab {
@@ -188,7 +187,7 @@ nav a:hover {
 }
 
 .img-border {
-    border: 3px solid black;
+    border: 3px solid #484949;
     text-align: center;
 }
 
@@ -201,7 +200,6 @@ nav a:hover {
 .tab-panel img {
     opacity: 0;
     transition: all 200ms linear;
-	background-color: #E9E3C4;
 }
 
 .js-appear h4,
@@ -216,6 +214,7 @@ nav a:hover {
 
 .pos-abs {
     position: absolute;
+	margin-top: 1.1em;
 }
 
 .intro { 
@@ -243,7 +242,7 @@ nav a:hover {
 }
 
 .banner-css { 
-	background-color: grey; 
+	background-color: #6BA2A7; 
 	color: white; 
 	padding-top: 4em;
 	padding-bottom: 4em;
@@ -275,7 +274,14 @@ nav a:hover {
 
 .subheadings { 
 	text-align: center;
-	font-size: 12pt;
+	font-size: 14pt;
+	color: 3em;;
+}
+
+.subheadings-css { 
+	text-align: center;
+	font-size: 14pt;
+	color: #484949;
 }
 
 .adding-top { 
@@ -285,6 +291,29 @@ nav a:hover {
 .bunny { 
 	height: auto;
 	width: 10em;
-	padding: 0;
+	margin: 0 0 2em 5em;
 	float: left; 
+}
+
+.tab-bg {
+	background-color: #E9E3C4;	
+	padding-top: 1em;
+}
+
+.footers { 
+	background-color: #E9E3C4;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.copyright { 
+	margin-left: 3em;
+	font-size: 9pt;
+	color: #6BA2A7;
+}
+
+.topbutton { 
+	margin-left: 50%;
+	font-size: 12pt;
+	color: #6BA2A7;
 }
