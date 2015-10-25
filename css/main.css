@@ -232,6 +232,7 @@ nav a:hover {
 	padding-right: 2em;
 	padding-left: 2em;
 	padding-bottom: 2em;
+	color: #484949;
 }
 
 @media only screen and (min-width: 30em) { 
@@ -267,7 +268,7 @@ nav a:hover {
 .subheadings { 
 	text-align: center;
 	font-size: 14pt;
-	color: 3em;;
+	color:#6BA2A7;
 }
 
 .subheading-css { 
@@ -320,11 +321,45 @@ nav a:hover {
 	background-color: #6BA2A7; 
 	color: white; 
 	padding-top: 4em;
-	padding-bottom: 4em;
 	margin-top: 2em;
 }
 
 .banner-html { 
 	background-color: #6BA2A7;
 	color: white; 
+}
+
+.cons-bunny { 
+	width: 100%; 
+	height: auto;
+}
+
+.code { 
+	margin-left: 2em;
+	margin-right: 1em;
+	width: 100%;
+}
+
+.code2 { 
+	margin-left: 3em;
+	margin-right: 2em;
+	width: 55%;
+}
+
+.code-example { 
+	width: 100%; 
+	height: auto;
+	padding-bottom: 3em;
+}
+
+@media only screen and (min-width: 40em) { 
+.cons-bunny { 
+		width: 60%; 
+		height: auto;
+	}
+.code-example { 
+		width: 80%; 
+		height: auto;
+		padding-bottom: 3em;
+	}
 }
