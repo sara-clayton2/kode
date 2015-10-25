@@ -20,6 +20,7 @@ body {
 
 .img-flex {
 	width: 100%;
+	margin: 0 auto; 
 }
 
 img {
@@ -300,7 +301,7 @@ nav a:hover {
 .bunny { 
 	height: auto;
 	width: 10em;
-	margin: 0 0 2em 5em;
+	margin: 0 0 2em 3em;
 	float: left; 
 }
 
@@ -377,21 +378,20 @@ nav a:hover {
 
 @media only screen and (min-width: 40em) { 
 .cons-bunny { 
-		width: 60%; 
-		height: auto;
+	width: 60%; 
+	height: auto;
 	}
 	
 .code-example { 
-		width: 80%; 
-		height: auto;
-		padding-bottom: 3em;
+	width: 80%; 
+	height: auto;
+	padding-bottom: 3em;
 	}
 	
-	
+.bunny { 
+	margin: 0 0 2em 5em;
+}	
 .code { 
-	margin-left: 2em;
-	margin-right: 1em;
 	width: 100%;
 }
-
 }
