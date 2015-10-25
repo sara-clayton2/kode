@@ -226,6 +226,16 @@ nav a:hover {
 	padding-bottom: 2em;
 }
 
+.css-intro { 
+	font-size: 12pt;
+	font-weight: 200; 
+	padding-right: 3em;
+	padding-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	margin: 0;
+}
+
 .about-items { 
 	font-size: 12pt;
 	font-weight: 200; 
@@ -334,6 +344,11 @@ nav a:hover {
 	height: auto;
 }
 
+.bunny-banner { 
+	background-color:  #E9E3C4;
+	padding-top: 1em;
+}
+
 .code { 
 	margin-left: 2em;
 	margin-right: 1em;
@@ -352,11 +367,20 @@ nav a:hover {
 	padding-bottom: 3em;
 }
 
+.bottom-banner { 
+	background-color: #6BA2A7; 
+	padding: 2em;
+	color:  #E9E3C4;
+	font-size: 16pt;
+	text-align: center;
+}
+
 @media only screen and (min-width: 40em) { 
 .cons-bunny { 
 		width: 60%; 
 		height: auto;
 	}
+	
 .code-example { 
 		width: 80%; 
 		height: auto;
