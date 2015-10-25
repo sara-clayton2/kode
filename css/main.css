@@ -352,7 +352,7 @@ nav a:hover {
 .code { 
 	margin-left: 2em;
 	margin-right: 1em;
-	width: 100%;
+	width: 80%;
 }
 
 .code2 { 
@@ -386,4 +386,12 @@ nav a:hover {
 		height: auto;
 		padding-bottom: 3em;
 	}
+	
+	
+.code { 
+	margin-left: 2em;
+	margin-right: 1em;
+	width: 100%;
+}
+
 }
